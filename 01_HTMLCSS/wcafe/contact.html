@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ウッディカフェ | 表参道のオープンカフェ</title>
+    <meta
+      name="description"
+      content="2015年表参道駅のそばにオープンした閑静な住宅街に囲まれたオープンカフェ。スタイリッシュなカフェでほっと一息お寛ぎください。"
+    />
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap-reboot.min.css">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <header class='gl-header'>
+        <div class="container">
+            <h1 class="logo">
+                Woody Cafe
+              </h1>
+            <nav class='gl-nav'>
+                <ul>
+                    <li>
+                      <i class="fa fa-home"></i>
+                      <a href="index.html">home</a>
+                    </li>
+                    <li>
+                      <i class="fa fa-cutlery"></i>
+                      <a href="menu.html">menu</a>
+                    </li>
+                    <li>
+                      <i class="fa fa-map-marker"></i>
+                      <a href="info.html">info</a>
+                    </li>
+                    <li>
+                      <i class="fa fa-wpforms"></i>
+                      <a href="contact.html">お問い合わせ</a>
+                    </li>
+                  </ul>
+              </nav>
+        </div>
+    </header>
+    <main class='gl-main container'>
+        <section class="contact">
+            
+            <h2><i class="fa fa-wpforms"></i> お問い合わせ</h2>
+                <p>
+                  「ウッディカフェに関するお問い合わせは
+                  こちらのフォームからお尋ねください。」
+                </p>
+            
+                <form action="" method="post">
+                  <table>
+            <tr>
+              <th>名前</th>
+              <td>
+                <input
+                  type="text"
+                  size="24"
+                  placeholder="お名前を入力してください"
+                  required
+                  autofocus
+                />
+              </td>
+            </tr>
+            <tr>
+              <th>メール</th>
+              <td>
+                <input
+                  type="email"
+                  size="36"
+                  placeholder="メールを入力してください"
+                  required
+                />
+              </td>
+              
+            </tr>
+            <tr>
+              <th>知った理由</th>
+              <td>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="subject[]"
+                    value="search"
+                  />検索</label
+                >
+                <label
+                  ><input
+                    type="checkbox"
+                    name="subject[]"
+                    value="blog"
+                  />紹介記事</label
+                >
+                <label
+                  ><input
+                    type="checkbox"
+                    name="subject[]"
+                    value="sns"
+                  />SNS口コミ</label
+                >
+                <label
+                  ><input
+                    type="checkbox"
+                    name="subject[]"
+                    value="ad"
+                  />ネット広告</label
+                >
+                <label
+                  ><input
+                    type="checkbox"
+                    name="subject[]"
+                    value="other"
+                  />その他</input
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>お問い合わせ内容</th>
+              <td>
+                <label
+                  ><input
+                    type="radio"
+                    name="reason"
+                    value="reserve"
+                    checked
+                  />予約に関して</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="reason"
+                    value="menu"
+                  />メニューに関して</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="reason"
+                    value="woman"
+                  />求人に関して</label
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>住所</th>
+              <td>
+                <select name="address">
+                  <option value="sai">埼玉</option>
+                  <option value="kan">神奈川</option>
+                  <option value="tok" selected>東京</option>
+                  <option value="chi">千葉</option>
+                  <option value="iba">茨城</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th>お問い合わせ</th>
+              <td><textarea name="contact" cols="36" rows="6">：</textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" value="送信" /></td>
+            </tr>
+                  </table>
+                </form>
+        </section>
+    </main>
+    
+    <footer class='gl-footer'>
+        <p>
+          <small> Copyright &copy; 20XX WoodyCafe. All Rights Reserved.</small>
+        </p>
+      </footer>
+  </body>
+  
+</html>

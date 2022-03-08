@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+}
+
+.gl-header {
+  border: 1px solid #ccc;
+  padding: 15px;
+  height: 80px;
+  width: 1000px;
+  margin: 15px;
+}
+
+.top-hero {
+  border: 1px solid #ccc;
+  padding: 15px;
+  height: 200px;
+  width: 1000px;
+  margin: 0 15px 15px 15px;
+}
+
+.top-main {
+  border: 1px solid #ccc;
+  padding: 15px;
+  height: 400px;
+  width: 685px;
+  float: left;
+  margin: 0 15px 15px 15px;
+}
+.top-side {
+  border: 1px solid #ccc;
+  padding: 15px;
+  height: 400px;
+  width: 300px;
+  float: right;
+}
+
+.gl-footer {
+  border: 3px solid #ccc;
+  padding: 15px;
+  height: 80px;
+  width: 1000px;
+  margin: 15px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
